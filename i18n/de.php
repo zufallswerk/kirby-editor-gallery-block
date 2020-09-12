@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'editor.blocks.gallery.label'                      => 'Galerie',
-    'editor.blocks.gallery.settings'                   => 'Galerie-Einstellungen',
+    'editor.blocks.gallery.label'                      => 'Bilder',
+    'editor.blocks.gallery.settings'                   => 'Bilder-Einstellungen',
     'editor.blocks.gallery.settings.group.label'       => 'Gruppenname',
     'editor.blocks.gallery.settings.blockClass.label'  => 'CSS-Klasse des Galerieblocks',
     'editor.blocks.gallery.settings.rowClass.label'    => 'CSS-Klasse der Galeriezeile',
