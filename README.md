@@ -1,8 +1,6 @@
-# Kirby Editor - Gallery Block
+# Kirby  Gallery
 
-> A gallery module for the Kirby CMS Editor
-
-This module is mostly built on top of existing Kirby UI Kit components.
+A fork of [Kirby Editor Gallery Block](https://github.com/cajames/kirby-editor-gallery-block). Thank you [Chris James](https://github.com/cajames) for your work. 👍
 
 ## Features
 
