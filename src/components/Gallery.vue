@@ -48,7 +48,7 @@
               @dragstart.prevent
               v-once
               @error="imageLoadError($event)"
-              :src="'/media/plugins/cajames/gallery-block/loader.png'"
+              :src="'/resources/plugins/cajames/gallery-block/loader.png'"
               :data-src="image.src"
               alt
             />
@@ -233,11 +233,11 @@ export default {
       const src = img.getAttribute("src");
       const retries = parseInt(img.getAttribute("retries")) || 0;
 
-      if (retries < 5) {
+      if (retries < 6) {
         setTimeout(() => {
           img.setAttribute("src", src);
           img.setAttribute("retries", retries + 1);
-        }, 200);
+        }, 200 * retries);
       }
     },
     input(data) {
