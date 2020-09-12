@@ -11,7 +11,7 @@
  * for block types that are only visible in the backend.
  */
 load([
-    'kirby\editor\galleryblock' => __DIR__ . '/KirbyEditorGalleryBlock.php'
+    'kirby\editor\galleryblock' => __DIR__ . '/lib/GalleryBlock.php'
 ]);
 
 Kirby::plugin('cajames/gallery-block', [

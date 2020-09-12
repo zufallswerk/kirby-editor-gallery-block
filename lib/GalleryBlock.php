@@ -75,7 +75,7 @@ class GalleryBlock extends Block
         $data['attrs'] = array_merge($data['attrs'] ?? [], [
             'images' => $newImages
         ]);
-
+        
         return $data;
     }
 
